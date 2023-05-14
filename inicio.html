@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIRU | Inicio</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  <img class="logo" src="img/miru-logo.png" alt="logo">
+  <a href="inicio.html" class="active">Inicio</a>
+  <a href="galeria.html">Galería</a>
+  <a href="contacto.html">Contacto</a>
+  <a href="sobre.html">Sobre nosotros</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div class="contenedor">
+  <article class="entrada-blog">
+      <h1>¡Visitamos la convención Akama en Posadas!</h1>
+      <img src="https://cdn.pixabay.com/photo/2015/10/09/23/44/cosplay-980223_960_720.jpg">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ratione laboriosam exercitationem ipsa, a labore tempore, minima quae dicta, odio quo eos perferendis? Eos eligendi nihil quasi, rem tempora laudantium.</p>
+      <a href="#">Leer más</a>
+  </article>
+  <article class="entrada-blog">
+      <h1>¡Nos vemos en Ichi Kan éste sábado 23 de junio!</h1>
+      <img src="https://cdn.pixabay.com/photo/2017/04/13/18/48/comic-con-2228405_960_720.jpg">
+      <p>Maecenas maximus urna vitae nisl semper, id volutpat ipsum scelerisque. Aenean nec ipsum finibus, eleifend dolor at, venenatis risus. Quisque varius orci et augue scelerisque luctus.</p>
+      <a href="#">Leer más</a>
+  </article>
+</div>
+</body>
+
+<script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+} 
+</script>
+</html>
